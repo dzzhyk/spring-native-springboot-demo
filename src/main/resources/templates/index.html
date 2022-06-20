@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}"></title>
+</head>
+<body>
+    <h2>[[ ${title} ]]</h2>
+    <br>
+    <span>a + b = [[ ${ans} ]]</span>
+    <br>
+    <span>忽略转义 [[ ${str} ]]</span>
+    <br>
+    <span>解释转义 [( ${str} )]</span>
+</body>
+</html>
